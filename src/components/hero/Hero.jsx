@@ -11,7 +11,7 @@ const Hero = () => {
         <div className='flex h-screen w-full flex-col items-center justify-center gap-y-6 md:flex-row'>
           <div data-aos='fade-left' className='flex w-full flex-col text-center md:order-1 md:w-1/2 md:text-left'>
             <h1 className='mb-6 text-2xl font-bold sm:text-3xl md:text-6xl'>
-              <span className='block text-main'>Health Cal,</span> Buat kamu yang lebih{' '}
+              <span className='block text-main'>Hitung Sehat,</span> Buat dirimu yang lebih{' '}
               <span className='italic underline decoration-main'>
                 <TypeAnimation
                   sequence={['Sehat', 1000, 'Bugar', 1000, 'Semangat', 1000]}
@@ -21,8 +21,7 @@ const Hero = () => {
               </span>
             </h1>
             <p className='mx-auto mb-6 w-72 text-sm text-slate-400 sm:w-auto sm:text-base'>
-              Biarkan kami membuat kalkulator kesehatan untuk membantu solusi Anda untuk hidup sehat. Pilih resep segar
-              dan sehat
+              Biarkan kami memberikan informasi kesehatan untuk membantu solusi kamu untuk hidup sehat.
             </p>
             <a href='/kalkulator-kalori' className='mx-auto block md:mx-0'>
               <Button className={`group flex items-center gap-3 hover:opacity-90`}>

@@ -22,10 +22,10 @@ const Navbar = () => {
         data-aos='fade-down'
         className={`${
           isScroll ? 'bg-white' : ''
-        } fixed left-0 top-0 right-0 z-10 mx-auto grid w-full grid-cols-3 items-center justify-between py-3 px-4 sm:px-44`}
+        } fixed left-0 top-0 right-0 z-10 mx-auto grid w-full grid-cols-3 items-center justify-between py-3 px-4 sm:px-8 lg:px-24 xl:px-44`}
       >
         <div className='col-span-2'>
-          <h1 className='text-xl font-bold text-main'>Health Cal</h1>
+          <h1 className='text-xl lg:text-2xl xl:text-3xl font-bold text-main'>Hitung Sehat</h1>
         </div>
         <div
           className={`absolute ${
