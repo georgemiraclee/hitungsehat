@@ -12,7 +12,7 @@ const Layanan = () => {
         <div className='mb-12 text-center'>
           <h2 className='font-black text-main sm:text-2xl'>LAYANAN</h2>
           <h3 className='mx-auto text-xl font-semibold text-gray-700 sm:text-3xl md:w-[500px] md:text-4xl'>
-            Kesehatan dimulai dari kesadaran kita bersama.
+            Beberapa fitur yang akan menunjang kesehatan kamu.
           </h3>
         </div>
         <div className='flex flex-wrap justify-around'>
